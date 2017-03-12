@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "5286a0d4-7b34-4b2a-b001-5cf4bb534cde",
-            "Value": {
-                "id": "6e6e2305-80c2-4aa1-b2a4-a593aeb3c756",
-                "resourcePath": "tilesets\\tilesetField\\tilesetField.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "5d1e4805-1185-4bcf-ab75-46072e0eb0fa",
             "Value": {
                 "id": "b9853f18-672a-4b04-94f4-80d215ca0554",
@@ -143,11 +135,27 @@
             }
         },
         {
+            "Key": "74ca518c-5da1-4a48-b3ee-cde0fed4a9e2",
+            "Value": {
+                "id": "e9c6c41b-7751-4cb5-aadb-069989bca249",
+                "resourcePath": "sprites\\sprBackgroundTiles\\sprBackgroundTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d53b768-f34d-4326-9263-fecd4dc1486b",
             "Value": {
                 "id": "f5ff549b-47d6-4492-882f-60e19c69a1b1",
                 "resourcePath": "views\\7d53b768-f34d-4326-9263-fecd4dc1486b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "89813aa1-720d-41ea-a516-c46735ea1fe0",
+            "Value": {
+                "id": "da0f0b43-4607-4bb7-bd87-1faa93205f66",
+                "resourcePath": "tilesets\\tilesBackground\\tilesBackground.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -260,14 +268,6 @@
                 "id": "8f56e79d-5a45-42b5-946a-8749e60d5258",
                 "resourcePath": "views\\eefb7453-f8c7-41d8-8400-eedbca6451ac.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ef07684d-65e9-4a92-b5d8-de3591c76be2",
-            "Value": {
-                "id": "9da2fc4b-ffcc-445a-8e29-63b77afbce6e",
-                "resourcePath": "objects\\objField\\objField.yy",
-                "resourceType": "GMObject"
             }
         }
     ],
