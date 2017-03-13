@@ -2,7 +2,7 @@
     "id": "6a112064-3fed-47ae-a31d-34ea256db3ec",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objBrick",
+    "name": "obj_brick",
     "eventList": [
         
     ],

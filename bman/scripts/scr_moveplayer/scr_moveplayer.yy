@@ -1,8 +1,8 @@
 {
-    "id": "b6353db6-9774-4de5-b0da-cc1d860657e3",
+    "id": "76478779-a834-4704-8910-6ffa6afe90c0",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "move_player",
+    "name": "scr_moveplayer",
     "IsCompatibility": false,
     "IsDnD": false
 }

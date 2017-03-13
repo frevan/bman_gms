@@ -1,8 +1,8 @@
 {
-    "id": "1f32af92-3a13-422a-a16c-a1cefc733ff0",
+    "id": "f1fd816d-1bf6-45fd-bea7-24b64e498e00",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "script_checkplayercollision",
+    "name": "scr_kickbomb",
     "IsCompatibility": false,
     "IsDnD": false
 }
