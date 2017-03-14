@@ -5,3 +5,6 @@ KEY_LEFT = vk_left;
 KEY_RIGHT = vk_right;
 KEY_DROPBOMB = ord("X");
 KEY_KICKBOMB = ord("C");
+
+// other
+SPEED_NORMAL = 5;

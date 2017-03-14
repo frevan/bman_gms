@@ -1,0 +1,1 @@
+return (argument0 / global.fieldw) * global.fieldw;
