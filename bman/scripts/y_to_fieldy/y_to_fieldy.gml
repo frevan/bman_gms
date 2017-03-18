@@ -1,1 +1,1 @@
-return (argument0 / global.fieldh) * global.fieldh;
+return floor(argument0 / global.field_h) * global.field_h + (global.field_h / 2);

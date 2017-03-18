@@ -365,6 +365,14 @@
                 "resourcePath": "scripts\\scr_kickbomb\\scr_kickbomb.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "f32e3643-bec8-4a1c-84c5-bee4c581fed1",
+            "Value": {
+                "id": "00877270-be8f-476c-9a42-ac24f4315c3c",
+                "resourcePath": "objects\\obj_field\\obj_field.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
