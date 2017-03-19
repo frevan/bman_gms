@@ -13,6 +13,8 @@ global.field_x = 15;
 global.field_y = 55;
 global.field_w = 48;
 global.field_h = 45;
+global.field_w2 = global.field_w/2;
+global.field_h2 = global.field_h/2;
 global.BORDER_SIZE = 25;
 
 // useful values

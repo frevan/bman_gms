@@ -8,8 +8,6 @@ if (keyboard_check(KEY_RIGHT))	movex = 1;
 if (keyboard_check(KEY_UP))		movey = -1;
 if (keyboard_check(KEY_DOWN))	movey = 1;
 
-curfield = pos_to_field(x, y);
-
 dx = 0;
 dy = 0;
 done = false;
