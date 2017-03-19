@@ -39,22 +39,6 @@
             }
         },
         {
-            "Key": "0865158e-8e15-4769-a96e-7bb052b21d9b",
-            "Value": {
-                "id": "691ca2a0-7d7e-4273-b163-8ff0d0fb0bb2",
-                "resourcePath": "scripts\\field_to_fieldx\\field_to_fieldx.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "0e5ab8fb-1e3a-4d97-903e-56e24df83db7",
-            "Value": {
-                "id": "c12fc64b-fd02-4464-9dc1-3b3b4d6b7d4b",
-                "resourcePath": "scripts\\x_to_fieldx\\x_to_fieldx.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "131fcb94-1615-4b10-9f5e-3af89dae9d6d",
             "Value": {
                 "id": "7694cf11-b00b-493d-b41d-c519858a578b",
@@ -127,14 +111,6 @@
             }
         },
         {
-            "Key": "391cd58b-5289-4f84-a0da-e9fb661e6ced",
-            "Value": {
-                "id": "262f282d-3cdb-4f06-8db5-d9d9efc4f21a",
-                "resourcePath": "scripts\\y_to_fieldy\\y_to_fieldy.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "40b36c84-7d1c-446e-8345-ed2bec08b44f",
             "Value": {
                 "id": "9b731d43-1a41-4c1a-93c2-7af61858927f",
@@ -172,6 +148,14 @@
                 "id": "864f2ee7-9f3a-449b-9ebd-5f3a85b4ac9d",
                 "resourcePath": "views\\4d2b1807-3a05-4469-aeaf-aecff4bfa8ef.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5bab4b82-8efa-46a3-bcd6-170e4d74583d",
+            "Value": {
+                "id": "8b3feb62-0789-4605-bb0c-3513aa6f4f5e",
+                "resourcePath": "scripts\\field_to_y\\field_to_y.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -423,10 +407,10 @@
             }
         },
         {
-            "Key": "f4ba859b-467d-416d-b223-723d935d7a0f",
+            "Key": "f847c61b-ca73-4538-bc5e-e3d3db8d5a40",
             "Value": {
-                "id": "b7763a92-e62d-4e0d-b79a-34487a770e4e",
-                "resourcePath": "scripts\\field_to_fieldy\\field_to_fieldy.yy",
+                "id": "6b8d105d-d565-4496-8ab7-aafbd174d822",
+                "resourcePath": "scripts\\field_to_x\\field_to_x.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -443,12 +427,10 @@
         "76478779-a834-4704-8910-6ffa6afe90c0",
         "7df6e927-3514-4873-beb8-25c24399c967",
         "f1fd816d-1bf6-45fd-bea7-24b64e498e00",
-        "0e5ab8fb-1e3a-4d97-903e-56e24df83db7",
-        "391cd58b-5289-4f84-a0da-e9fb661e6ced",
-        "0865158e-8e15-4769-a96e-7bb052b21d9b",
-        "f4ba859b-467d-416d-b223-723d935d7a0f",
         "6f7d2e48-0f01-46b9-bc43-1798ba44210d",
         "a75718f8-5e3b-44b0-869b-f916098ce711",
+        "f847c61b-ca73-4538-bc5e-e3d3db8d5a40",
+        "5bab4b82-8efa-46a3-bcd6-170e4d74583d",
         "e6dfa279-3394-4db5-bab1-24112aa4722a",
         "38af3665-0d14-49ad-b924-1331adcd6659"
     ],

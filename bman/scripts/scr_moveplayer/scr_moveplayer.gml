@@ -1,8 +1,8 @@
 // TODO: be able to move off the tile that has the bomb we just dropped on it
 // TODO: move around the corners of blocking objects like in the original
 
-movex = 0;
-movey = 0;
+var movex = 0;
+var movey = 0;
 if (keyboard_check(KEY_LEFT))	movex = -1;
 if (keyboard_check(KEY_RIGHT))	movex = 1;
 if (keyboard_check(KEY_UP))		movey = -1;
@@ -10,13 +10,17 @@ if (keyboard_check(KEY_DOWN))	movey = 1;
 
 if (movex != 0 || movey != 0)
 {
-	done = false;
-	curx = x;
-	cury = y;
+	var bombx = -1;
+	if (last_dropped_bomb != noone)	// doesn't work
+		bombx = last_dropped_bomb.x;
+
+	var done = false;
+	var curx = x;
+	var cury = y;
 	while (!done)
 	{
-		nextx = curx + movex;
-		nexty = cury + movey;
+		var nextx = curx + movex;
+		var nexty = cury + movey;
 		if (!place_free(nextx, nexty))
 		{
 			if (place_free(curx, nexty))		nextx = curx;
@@ -39,4 +43,7 @@ if (movex != 0 || movey != 0)
 
 	x = curx;
 	y = cury;
+	
+	if (last_dropped_bomb != noone)
+		last_dropped_bomb.x = bombx;
 }

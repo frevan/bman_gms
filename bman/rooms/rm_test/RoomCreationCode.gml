@@ -32,6 +32,8 @@ init_test_field_array();
 create_test_field_objects();
 
 // spawn players
-playerx = global.field_left + spawn_field[0,0] * global.field_w + global.field_w/2;
-playery = global.field_top + spawn_field[0,1] * global.field_h + global.field_h;
+playerx = field_to_x(spawn_field[0,0]);
+playery = field_to_y(spawn_field[0,1]);
 player_instances[0] = instance_create_layer(playerx, playery, "Player", obj_player);
+
+room_speed = 30;

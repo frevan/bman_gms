@@ -8,3 +8,6 @@ KEY_KICKBOMB = ord("C");
 
 // other
 SPEED_NORMAL = 5;
+
+// last dropped bomb
+last_dropped_bomb = noone;

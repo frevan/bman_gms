@@ -1,1 +1,0 @@
-return floor(argument0 / global.field_h) * global.field_h + global.field_h2;

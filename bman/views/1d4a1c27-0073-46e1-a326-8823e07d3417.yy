@@ -10,7 +10,9 @@
         "0865158e-8e15-4769-a96e-7bb052b21d9b",
         "f4ba859b-467d-416d-b223-723d935d7a0f",
         "6f7d2e48-0f01-46b9-bc43-1798ba44210d",
-        "a75718f8-5e3b-44b0-869b-f916098ce711"
+        "a75718f8-5e3b-44b0-869b-f916098ce711",
+        "f847c61b-ca73-4538-bc5e-e3d3db8d5a40",
+        "5bab4b82-8efa-46a3-bcd6-170e4d74583d"
     ],
     "filterType": "GMScript",
     "folderName": "field calculations",
