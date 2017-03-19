@@ -8,47 +8,35 @@ if (keyboard_check(KEY_RIGHT))	movex = 1;
 if (keyboard_check(KEY_UP))		movey = -1;
 if (keyboard_check(KEY_DOWN))	movey = 1;
 
-dx = 0;
-dy = 0;
-done = false;
-while (!done)
+if (movex != 0 || movey != 0)
 {
-	fieldx = x_to_fieldx(x);
-	fieldy = y_to_fieldy(y);
-	if (!place_free(fieldx, fieldy))
+	done = false;
+	curx = x;
+	cury = y;
+	while (!done)
 	{
-		// TODO: collision
-	}
-
-	/*
-	if (dx != 0)
-	{
-		while (place_meeting(x+dx, y+dy, all))
+		nextx = curx + movex;
+		nexty = cury + movey;
+		if (!place_free(nextx, nexty))
 		{
-			if (dx > 0)	dx--;
-			else		dx++;
-			if (dx == 0)
-				break;
+			if (place_free(curx, nexty))		nextx = curx;
+			else if (place_free(nextx, cury))	nexty = cury;
+			else								
+			{
+				done = true;
+				continue;
+			}
+		}
+		
+		done = (curx == nextx && cury == nexty);
+		if (!done)
+		{
+			curx = nextx;
+			cury = nexty;
+			done = (abs(curx-x) == SPEED_NORMAL) || (abs(cury-y) == SPEED_NORMAL); 
 		}
 	}
 
-	if (dy != 0)
-	{
-		while (place_meeting(x+dx, y+dy, all))
-		{
-			if (dy > 0)	dy--;
-			else		dy++;
-			if (dy == 0)
-				break;
-		}
-	}
-	*/
-
-	dx += movex;
-	dy += movey;
-	
-	done = (abs(dx) >= abs(SPEED_NORMAL*movex) && abs(dy) >= abs(SPEED_NORMAL*movey));
+	x = curx;
+	y = cury;
 }
-
-x += dx;
-y += dy;
