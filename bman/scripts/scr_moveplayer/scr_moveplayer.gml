@@ -10,10 +10,6 @@ if (keyboard_check(KEY_DOWN))	movey = 1;
 
 if (movex != 0 || movey != 0)
 {
-	var bombx = -1;
-	if (last_dropped_bomb != noone)	// doesn't work
-		bombx = last_dropped_bomb.x;
-
 	var done = false;
 	var curx = x;
 	var cury = y;
@@ -43,7 +39,4 @@ if (movex != 0 || movey != 0)
 
 	x = curx;
 	y = cury;
-	
-	if (last_dropped_bomb != noone)
-		last_dropped_bomb.x = bombx;
 }
