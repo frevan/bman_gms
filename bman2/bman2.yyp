@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2f0c322f-449f-4e41-bec6-252975a53345",
+            "Value": {
+                "id": "e65dba67-2729-47c5-a150-7b6bfa43fe38",
+                "resourcePath": "scripts\\CheckMoveCollision\\CheckMoveCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "32806a83-7a15-45bc-b199-106375fe2749",
             "Value": {
                 "id": "2cac094f-240e-4dea-a11f-42a3a63c74a5",
@@ -350,7 +358,8 @@
         "08bbc0b9-7183-445d-947a-9b18a6249d9e",
         "05827d55-19a2-4ecb-8b7f-d22d5753b9be",
         "eed59c15-764c-49b5-831d-ef2961ad3fca",
-        "5434a0f2-9543-4ddf-8694-deeb7ac710f2"
+        "5434a0f2-9543-4ddf-8694-deeb7ac710f2",
+        "2f0c322f-449f-4e41-bec6-252975a53345"
     ],
     "tutorial": ""
 }

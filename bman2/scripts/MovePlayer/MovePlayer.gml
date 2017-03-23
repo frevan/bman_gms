@@ -21,18 +21,17 @@ if (movex != 0 || movey != 0)
 		{
 			var nextx = curx + movex;
 			var nexty = cury + movey;
-			if (place_meeting(nextx, nexty, obj_wall))
-			{
-				if (!place_meeting(curx, nexty, obj_wall))		nextx = curx;
-				else if (!place_meeting(nextx, cury, obj_wall))	nexty = cury;
-				else								
-				{
-					done = true;
-					continue;
-				}
-			}
-		
-			done = (curx == nextx && cury == nexty);
+			
+			// check collision with walls
+			var r = CheckMoveCollision(curx, cury, nextx, nexty, obj_wall);
+			if (r == 1)			nextx = curx;
+			else if (r == 2)	nexty = cury;
+			else if (r == 3)	done = true;
+			else				done = (curx == nextx && cury == nexty);
+			
+			// check collisions with bombs
+			// TODO
+
 			if (!done)
 			{
 				curx = nextx;
