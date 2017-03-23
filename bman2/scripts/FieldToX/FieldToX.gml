@@ -1,0 +1,1 @@
+return global.map_offsetx + (argument0 * global.map_fieldw);
