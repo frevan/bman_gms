@@ -2,7 +2,7 @@
 MovePlayer();
 
 // drop bomb
-//script_execute(scr_dropbomb);
+DropBomb();
 
 // kick
 //script_execute(scr_kickbomb);

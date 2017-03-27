@@ -175,11 +175,35 @@
             }
         },
         {
+            "Key": "64b7c648-3d46-43ef-9517-93ff8e8fd0ce",
+            "Value": {
+                "id": "d55691a9-b656-4bdc-a0dd-05d76655f76a",
+                "resourcePath": "objects\\obj_bomb\\obj_bomb.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "69ea9925-edfe-4637-b979-b39187e00aa7",
             "Value": {
                 "id": "93bca633-4350-4e4d-8611-c0e49636b066",
                 "resourcePath": "views\\69ea9925-edfe-4637-b979-b39187e00aa7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a44dac4-e7a3-4541-89df-8dffaf6b0def",
+            "Value": {
+                "id": "a960205c-a232-4f2a-92ad-82f927cfb3b8",
+                "resourcePath": "scripts\\CheckMoveCollisionWithAllBombs\\CheckMoveCollisionWithAllBombs.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6a7e6fd2-42a2-4ef8-a397-6df630f40d3c",
+            "Value": {
+                "id": "1e9dce1e-c9f6-42ee-ba10-46d5bb3329f3",
+                "resourcePath": "scripts\\DropBomb\\DropBomb.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -287,6 +311,14 @@
             }
         },
         {
+            "Key": "ce5c1a76-3d5a-436b-8f0d-93b0538d5967",
+            "Value": {
+                "id": "36bffe91-c853-4728-9078-a49ddd788d9f",
+                "resourcePath": "sprites\\spr_bomb\\spr_bomb.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e631f066-ebad-40ee-ad95-6661279f39c3",
             "Value": {
                 "id": "57262579-b733-456a-9d56-2f089329a687",
@@ -359,7 +391,9 @@
         "05827d55-19a2-4ecb-8b7f-d22d5753b9be",
         "eed59c15-764c-49b5-831d-ef2961ad3fca",
         "5434a0f2-9543-4ddf-8694-deeb7ac710f2",
-        "2f0c322f-449f-4e41-bec6-252975a53345"
+        "2f0c322f-449f-4e41-bec6-252975a53345",
+        "6a44dac4-e7a3-4541-89df-8dffaf6b0def",
+        "6a7e6fd2-42a2-4ef8-a397-6df630f40d3c"
     ],
     "tutorial": ""
 }

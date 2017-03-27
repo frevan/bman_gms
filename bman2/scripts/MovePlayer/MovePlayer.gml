@@ -23,20 +23,34 @@ if (movex != 0 || movey != 0)
 			var nexty = cury + movey;
 			
 			// check collision with walls
-			var r = CheckMoveCollision(curx, cury, nextx, nexty, obj_wall);
-			if (r == 1)			nextx = curx;
-			else if (r == 2)	nexty = cury;
-			else if (r == 3)	done = true;
-			else				done = (curx == nextx && cury == nexty);
+			if (!done)
+			{
+				var r = CheckMoveCollision(curx, cury, nextx, nexty, obj_wall);
+				if (r == 1)			nextx = curx;
+				else if (r == 2)	nexty = cury;
+				else if (r == 3)	done = true;
+			}
 			
 			// check collisions with bombs
-			// TODO
+			if (!done)
+			{
+				var r = CheckMoveCollisionWithAllBombs(curx, cury, nextx, nexty);
+				if (r == 1)			nextx = curx;
+				else if (r == 2)	nexty = cury;
+				else if (r == 3)	done = true;
+			}
 
+			if (!done)
+			{
+				done = false;
+				if (movex != 0)	done |= (abs(nextx-x) == global.NORMAL_SPEED) || (curx == nextx && movey == 0);
+				if (movey != 0)	done |= (abs(nexty-y) == global.NORMAL_SPEED) || (cury == nexty && movex == 0);
+			}
+			
 			if (!done)
 			{
 				curx = nextx;
 				cury = nexty;
-				done = (abs(curx-x) == global.NORMAL_SPEED) || (abs(cury-y) == global.NORMAL_SPEED); 
 			}
 		}
 	}
