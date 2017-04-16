@@ -14,4 +14,9 @@ if (keyboard_check(KEY_DROPBOMB))
 	var bombx = FieldToX(bombfield_x);
 	var bomby = FieldToY(bombfield_y);
 	var bomb = instance_create_layer(bombx, bomby, "Solids", obj_bomb);
+	
+	for (var n = 0; n < global.NUM_PLAYERS; n++)
+	{
+		// TODO: check if player in field, then add to array playersOnBomb
+	}
 }

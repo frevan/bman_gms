@@ -1,4 +1,5 @@
 // init map and field constants
+global.NUM_PLAYERS = 1;
 global.map_spawnx[0] = 1;
 global.map_spawny[0] = 1;
 
